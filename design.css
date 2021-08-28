@@ -1,0 +1,140 @@
+header {
+    background-image: url("slike/projekt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: #BABABA;
+    transition: 200ms;
+}
+
+
+
+section {
+    margin-top: 100px;
+    width: 90%;
+    margin: auto;
+    margin-left: 150px;
+}
+
+section>div {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 0.5%;
+    float: left;
+    width: 49%;
+   
+}
+.planine_naziv {
+    margin-top: 20px;
+    margin-left: -120px;
+    padding: 10px;
+    width: 10%;
+    background-color: rgb(233, 227, 227);
+    font-size: 1.25em;
+    text-align: center;
+    border-radius: 10px;
+    border:#03b67a solid 1px ;
+    height: auto;
+    
+}
+.nazivh1{
+   text-decoration: none;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   
+}
+.nazivh1 p{
+    color: black;  
+}
+
+.nazivh1 p:hover{
+    color: #03b67a;  
+    transition: 200ms;
+}
+
+.slika{
+
+    position: relative;
+    margin-top: 50px;
+    margin-left: 0.5%;
+    float: left;
+    width: 49%;
+}
+
+body {
+    margin-top: -2px;
+}
+
+#filter {
+    margin-top: 20px;
+    margin-left: 15%;
+    padding: 5px;
+    border: black solid 1px;
+    width: 55%;
+}
+#b_forma{
+    margin-top: 10px;
+}
+#admin_nav {
+    margin-top: 20px;
+    margin-left: 33%;
+    padding: 10px;
+    width: 33%;
+    background-color: rgb(216, 214, 214);
+    font-size: 1.3em;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+#admin_nav a {
+    text-decoration: none;
+    color: #131010;
+    transition: 200ms;
+    padding-left: 10px;
+}
+#admin_nav a:hover {
+    color: #03b67a;
+    transition: 200ms;
+}
+
+label {
+    margin-left: 20px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+#autor {
+    width: 300px;
+    height: 350px;
+    float: left;
+    padding-right: 15px;
+}
+
+#prijava_forma {
+    padding: 10px;
+    margin: auto;
+    width: 55%;
+    text-align: center;
+}
+
+form {
+    border: white;
+}
